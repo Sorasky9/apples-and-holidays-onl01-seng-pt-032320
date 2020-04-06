@@ -82,7 +82,7 @@ array = []
 holiday_hash.each do |season, holidays|
   holidays.each do |name, supplies|
 if supplies.include?("BBQ")
-  array << 
+  array << name
 #binding.pry
 end
   end
