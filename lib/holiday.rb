@@ -78,12 +78,5 @@ end
 def all_holidays_with_bbq(holiday_hash)
   # return an array of holiday names (as symbols) where supply lists
   # include the string "BBQ"
-holiday_hash.each do |season, holiday|
-holiday.each {|name|}
- name = :fourth_of_july && :memorial_day
-if name == :fourth_of_july && :memorial_day
-  puts "#{name}"
-
-end
-end
+holiday_hash[:summer][:spring]
 end
