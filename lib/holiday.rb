@@ -87,4 +87,5 @@ if supplies.include?("BBQ")
 end
   end
 end
+array
 end
